@@ -3,7 +3,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import DefaultLayout from "../components/DefaultLayout";
 import Spinner from "../components/Spinner";
-import { addCar } from "../redux/actions/carsAction";
+import { addCar } from "../redux/actions/carsAction ";
 function AddCar() {
   const dispatch = useDispatch();
   const { loading } = useSelector((state) => state.alertsReducer);
